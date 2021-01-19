@@ -13,8 +13,8 @@
 
 # How to run
 
-- Input Data Format: Number of EEG Channels x Number of Samples X Number of Trials for EEG data and Labels as vector (0... to n classes)
-- Provide Data related information in op.py such as data path, sampling rate, number of classes, etc.
+- Input Data Format: Number of EEG Channels x Number of Samples X Number of Trials for EEG data and Labels as vector. See testData.mat for references.
+- Provide input data related information in 'op.py' such as path, sampling rate, number of classes, etc.
 - Execute the following line of code
 
 ```
